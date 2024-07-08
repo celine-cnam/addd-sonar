@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "celine-cnam",
+        "projectKey": "celine-cnam_addd-sonar"
+    }
+}

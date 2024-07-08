@@ -1,8 +1,9 @@
 import { $ } from './dom-utils'
 
 // Ce fichier est généré au build par le plugin parcel-plugin-sw-cache
-const path = window.location.pathname
-const swName = `${window.location}sw.js`
+
+const path = window.location.pathname //window.location.pathname returns the path and filename of the current page
+const swName = `${window.location}sw.js` // The window.location object can be used to get the current page address (URL) and to redirect the browser to a new page.
 
 window.isUpdateAvailable = new Promise(function (resolve, reject) {
   // lazy way of disabling service workers while developing
